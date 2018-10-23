@@ -21,6 +21,7 @@ alias keti='kubectl exec -ti'
 
 # Manage configuration quickly to switch contexts between local, dev ad staging.
 alias kcuc='kubectl config use-context'
+alias kcgc='kubectl config get-context'
 alias kcsc='kubectl config set-context'
 alias kcdc='kubectl config delete-context'
 alias kccc='kubectl config current-context'
@@ -36,6 +37,7 @@ alias kgpwide='kgp -o wide'
 alias kep='kubectl edit pods'
 alias kdp='kubectl describe pods'
 alias kdelp='kubectl delete pods'
+alias ktp='kubectl top pods'
 
 # get pod by label: kgpl "app=myapp" -n myns
 alias kgpl='kgp -l'
@@ -105,3 +107,4 @@ alias kgno='kubectl get nodes'
 alias keno='kubectl edit node'
 alias kdno='kubectl describe node'
 alias kdelno='kubectl delete node'
+alias ktn='kubectl top node'
