@@ -21,7 +21,7 @@ alias keti='kubectl exec -ti'
 
 # Manage configuration quickly to switch contexts between local, dev ad staging.
 alias kcuc='kubectl config use-context'
-alias kcgc='kubectl config get-context'
+alias kcgc='kubectl config get-contexts'
 alias kcsc='kubectl config set-context'
 alias kcdc='kubectl config delete-context'
 alias kccc='kubectl config current-context'
